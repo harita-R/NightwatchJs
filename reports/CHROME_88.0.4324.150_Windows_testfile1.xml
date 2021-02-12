@@ -1,22 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
-            tests="2">
+            failures="1"
+            tests="1">
 
   <testsuite name="testfile1"
-    errors="0" failures="0" hostname="" id="" package="testfile1" skipped="0"
-    tests="2" time="14.59" timestamp="">
+    errors="0" failures="1" hostname="" id="" package="testfile1" skipped="1"
+    tests="1" time="5.616" timestamp="">
   
-    <testcase name="Step one: Navigate to google.com and verify URL and title" classname="testfile1" time="5.038" assertions="3">
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Step two: Search &#39;Nightwatch&#39; and verify result" classname="testfile1" time="9.556" assertions="1">
+    <testcase name="Step one: Navigate to google.com and verify URL and title" classname="testfile1" time="5.616" assertions="1">  <failure message="Timed out while waiting for element &lt;body&gt; to be present for 1000 milliseconds. - expected &#34;found&#34; but got: &#34;not found&#34; (4057ms)">    at Object.Step one: Navigate to google.com and verify URL and title (E:\NightwatchJS_2\NightwatchJS\tests\testfile1.js:5:7)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
 
     
     </testcase>
@@ -26,6 +18,13 @@
 
     
 
+  
+    
+    <testcase
+      name="Step two: Search &#39;Nightwatch&#39; and verify result" classname="testfile1">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>
